@@ -11,3 +11,9 @@ people::wilddog64::packages::my_packages:
   package:
     name: lesspipe
     ensure: present
+  package:
+    name: tree
+    ensure: present
+  package:
+    name: readline
+    ensure: present
