@@ -1,25 +1,25 @@
 people::wilddog64::packages::my_packages:
   package:
     name: macvim
-    ensure: present
+    ensure: latest
   package:
     name: zsh
-    ensure: present
+    ensure: latest
   package:
     name: git
-    ensure: present
+    ensure: latest
   package:
     name: lesspipe
-    ensure: present
+    ensure: latest
   package:
     name: tree
-    ensure: present
+    ensure: latest
   package:
     name: readline
-    ensure: present
+    ensure: latest
   package:
     name: autojump
-    ensure: present
+    ensure: latest
   package:
     name: vagrant
     provider: 'brewcask'
