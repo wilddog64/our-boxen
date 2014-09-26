@@ -5,3 +5,9 @@ people::wilddog64::packages::my_packages:
   package:
     name: zsh
     ensure: present
+  package:
+    name: git
+    ensure: present
+  package:
+    name: lesspipe
+    ensure: present
