@@ -1,0 +1,7 @@
+people::wilddog64::packages::my_packages:
+  package:
+    name: macvim
+    ensure: present
+  package:
+    name: zsh
+    ensure: present
