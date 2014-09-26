@@ -58,7 +58,6 @@ github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github 'osx',         '2.7.0'
 github 'brewcask',    '0.0.4', :repo => 'phinze/puppet-brewcask'
-github 'puppet-vagrant'
-
+github 'vagrant'
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
