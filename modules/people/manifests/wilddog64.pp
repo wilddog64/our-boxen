@@ -9,6 +9,11 @@ class people::wilddog64 {
   include osx::disable_app_quarantine
   include brewcask
 
+  class { vagrant:
+    completion => true,
+  }
+
   include people::wilddog64::packages
   include people::wilddog64::zsh
+  include people::wilddog64::vagrant_plugin
 }

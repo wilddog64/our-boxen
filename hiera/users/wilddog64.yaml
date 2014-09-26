@@ -23,3 +23,10 @@ people::wilddog64::packages::my_packages:
   package:
     name: vagrant
     provider: 'brewcask'
+
+people::wilddog64::vagrant_plugin::plugins:
+    'vagrant-berkshelf':
+       version: '2.0.1'
+       ensure: present
+    'vagrant-auto_network':
+       ensure: present
