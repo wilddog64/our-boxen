@@ -17,3 +17,6 @@ people::wilddog64::packages::my_packages:
   package:
     name: readline
     ensure: present
+  package:
+    name: autojump
+    ensure: present
