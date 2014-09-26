@@ -7,6 +7,7 @@ class people::wilddog64 {
   include osx::universal_access::ctrl_mod_zoom
   include osx::no_network_dsstores
   include osx::disable_app_quarantine
+  include brewcask
 
   include people::wilddog64::packages
   include people::wilddog64::zsh
