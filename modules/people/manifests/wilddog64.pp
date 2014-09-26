@@ -9,4 +9,5 @@ class people::wilddog64 {
   include osx::disable_app_quarantine
 
   include people::wilddog64::packages
+  include people::wilddog64::zsh
 }
