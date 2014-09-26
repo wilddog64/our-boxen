@@ -20,3 +20,6 @@ people::wilddog64::packages::my_packages:
   package:
     name: autojump
     ensure: present
+  package:
+    name: vagrant
+    provider: 'brewcask'
