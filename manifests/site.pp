@@ -2,6 +2,10 @@ require boxen::environment
 require homebrew
 require gcc
 
+Package <| title == 'boxen/brews/gcc48' and (install_options == undef or install_options == []) |> {
+  install_options =>  [ '--verbose'  ]
+}
+
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
