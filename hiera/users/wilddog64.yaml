@@ -23,6 +23,9 @@ people::wilddog64::packages::my_packages:
   package:
     name: vagrant
     provider: 'brewcask'
+  package:
+    name: google-chrome
+    provider: brewcask
 
 people::wilddog64::vagrant_plugin::plugins:
     'vagrant-berkshelf':
