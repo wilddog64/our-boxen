@@ -26,6 +26,9 @@ people::wilddog64::packages::my_packages:
   package:
     name: google-chrome
     provider: brewcask
+  package:
+    name: textmate
+    provider: brewcask
 
 people::wilddog64::vagrant_plugin::plugins:
     'vagrant-berkshelf':
