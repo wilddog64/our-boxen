@@ -21,9 +21,6 @@ people::wilddog64::packages::my_packages:
     name: autojump
     ensure: latest
   package:
-    name: vagrant
-    provider: 'brewcask'
-  package:
     name: google-chrome
     provider: brewcask
   package:
