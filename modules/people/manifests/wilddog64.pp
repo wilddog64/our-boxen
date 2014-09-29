@@ -12,9 +12,16 @@ class people::wilddog64 {
   class { 'vagrant':
     completion => true,
     version    => '1.6.5',
+    require    => Class['people::wilddog64::packages'],
   }
 
-  include people::wilddog64::packages
+  class { 'people::wilddog64::macvim':
+    require => Class['people::wilddog64::packages']
+  }
+
+  class { 'people::wilddog64::packages':
+  }
+
   include people::wilddog64::zsh
   include people::wilddog64::vagrant_plugin
 }
