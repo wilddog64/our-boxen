@@ -7,12 +7,14 @@ class people::wilddog64 {
   include osx::universal_access::ctrl_mod_zoom
   include osx::no_network_dsstores
   include osx::disable_app_quarantine
-  include brewcask
+
+  class { 'brewcask':
+    notify => Class['vagrant'],
+  }
 
   class { 'vagrant':
     completion => true,
     version    => '1.6.5',
-    require    => Class['people::wilddog64::packages'],
     notify     => Class['people::wilddog64::vagrant_plugin']
   }
 
