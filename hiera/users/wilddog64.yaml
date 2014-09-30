@@ -32,6 +32,9 @@ people::wilddog64::packages::my_packages:
   package:
     name: sourcetree
     provider: brewcask
+  package:
+    name: adium
+    provider: brewcask
 
 people::wilddog64::vagrant_plugin::plugins:
     'vagrant-berkshelf':
