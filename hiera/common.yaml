@@ -1,0 +1,2 @@
+homebrew::installdir: /usr/local
+homebrew::config::bindir: /usr/local/bin
