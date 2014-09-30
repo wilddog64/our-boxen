@@ -41,6 +41,10 @@ people::wilddog64::packages::my_packages:
   package:
     name: firefox
     provider: brewcask
+  package:
+    name: docker
+  package:
+    name: boot2docker
 
 people::wilddog64::vagrant_plugin::plugins:
     'vagrant-berkshelf':
