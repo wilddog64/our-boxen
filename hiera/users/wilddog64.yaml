@@ -47,6 +47,8 @@ people::wilddog64::packages::my_packages:
     name: boot2docker
   package:
     name: freetds
+  package:
+    name: ctags
 
 people::wilddog64::vagrant_plugin::plugins:
     'vagrant-berkshelf':
