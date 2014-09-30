@@ -28,4 +28,5 @@ class people::wilddog64 {
 
   class { 'people::wilddog64::zsh': }
   class { 'people::wilddog64::vagrant_plugin': }
+  class { 'people::wilddog64::iterm2': }
 }
