@@ -12,7 +12,7 @@ gem "rspec-puppet",           "1.0.1"
 gem "deep_merge",             "~> 1.0"
 
 group :development do
-  gem "aws-sdk", "~> 1.52", ">= 1.52.0"
+  gem "aws-sdk", "~> 2.0", ">= 2.0.22"
   gem "net-ssh"
   gem "rbvmomi"
 end
