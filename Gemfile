@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "boxen", "~> 2.6", ">= 2.6.0"
+gem "boxen", "~> 4.0", ">= 4.0.0"
 gem "hiera",                  "~> 1.3.3"
 gem "librarian-puppet", "~> 1.0.5"
 gem "puppet", "6.13.0"
@@ -12,7 +12,7 @@ gem "rspec-puppet",           "1.0.1"
 gem "deep_merge",             "~> 1.0"
 
 group :development do
-  gem "aws-sdk", "~> 1.52", ">= 1.52.0"
+  gem "aws-sdk", "~> 2.0", ">= 2.0.22"
   gem "net-ssh"
-  gem "rbvmomi"
+  gem "rbvmomi", ">= 1.8.2"
 end
